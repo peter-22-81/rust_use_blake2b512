@@ -1,0 +1,11 @@
+[package]
+name = "blake2b512"
+version = "0.1.0"
+authors = [ "The Aleo Team <hello@aleo.org>" ]
+edition = "2021"
+
+[dependencies]
+ffi = "0.0.2"
+
+[build-dependencies]
+bindgen = "0.53.1"
